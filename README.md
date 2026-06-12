@@ -4,6 +4,8 @@ Webapp pour une agence de voyage temporel fictive de luxe, développée en équi
 
 > *Explorez l'histoire, réinventée.*
 
+🌐 **[https://maxglt.github.io/timetravel-agency/](https://maxglt.github.io/timetravel-agency/)**
+
 ---
 
 ##  Auteurs
@@ -271,7 +273,7 @@ npm run build
 
 ##  Déploiement
 
-URL publique : **https://[ton-username].github.io/timetravel-agency/**
+URL publique : **https://maxglt.github.io/timetravel-agency/**
 
 Plateforme : GitHub Pages - déployé automatiquement via GitHub Actions à chaque push sur `main`.
 
