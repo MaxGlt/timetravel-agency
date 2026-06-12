@@ -1,6 +1,6 @@
 #  TimeTravel Agency - Webapp Interactive
 
-Webapp pour une agence de voyage temporel fictive de luxe, développée dans le cadre du Projet Supervisé IA M1/M2 - Ynov Campus Paris 2025/2026.
+Webapp pour une agence de voyage temporel fictive de luxe, développée en équipe dans le cadre du Projet Supervisé IA M1/M2 - Ynov Campus Paris 2025/2026.
 
 > *Explorez l'histoire, réinventée.*
 
@@ -338,7 +338,7 @@ Tu peux suggérer des destinations selon les intérêts du client.
 
 ```
 [CONTEXT]
-Tu interviens sur un projet étudiant M1/M2 Digital & IA (Ynov Campus Paris 2025/2026), réalisé en solo. Le projet est une webapp interactive pour TimeTravel Agency, une agence de voyage temporel fictive de luxe proposant 3 destinations : Paris 1889 (Belle Époque), Crétacé –65M (préhistoire) et Florence 1504 (Renaissance). Stack : React + Tailwind CSS, déployé sur GitHub Pages via GitHub Actions.
+Tu interviens sur un projet étudiant M1/M2 Digital & IA (Ynov Campus Paris 2025/2026), réalisé en équipe. Le projet est une webapp interactive pour TimeTravel Agency, une agence de voyage temporel fictive de luxe proposant 3 destinations : Paris 1889 (Belle Époque), Crétacé –65M (préhistoire) et Florence 1504 (Renaissance). Stack : React + Tailwind CSS, déployé sur GitHub Pages via GitHub Actions.
 
 [OBJECTIVE]
 Génère l'intégralité du code source de la webapp avec : une landing page immersive (hero section avec vidéo de fond `public/assets/videos/hero-bg.mp4`), une galerie de 3 destinations avec cards interactives (vidéos et images dans `public/assets/`), un widget chatbot IA flottant connecté à l'API Anthropic (`claude-sonnet-4-6`) avec le prompt système TimeTravel Agency, un quiz de recommandation personnalisée en 4 questions dont le résultat est généré par l'IA, et un formulaire de réservation fictif. Le fichier `.github/workflows/deploy.yml` doit automatiser le build et le déploiement sur GitHub Pages.
@@ -350,7 +350,7 @@ React avec composants fonctionnels et hooks. Fichiers séparés : `Hero.jsx`, `D
 Code propre, lisible et commenté. Clé API via variable d'environnement `VITE_ANTHROPIC_API_KEY` uniquement, jamais en dur. Lazy loading sur les vidéos et images. `.env.local` listé dans `.gitignore`.
 
 [AUDIENCE]
-Développeur solo utilisant Claude Code dans VS Code. Le code doit être directement exécutable après `npm install` et configuration du `.env.local`.
+Équipe de développeurs utilisant Claude Code dans VS Code. Le code doit être directement exécutable après `npm install` et configuration du `.env.local`.
 
 [RESPONSE]
 Les assets sont déjà placés dans `public/assets/` selon cette structure :
@@ -400,7 +400,7 @@ Chaque fichier doit être livré intégralement, sans placeholder ni TODO.
 
 ##  Réflexion sur le processus
 
-Ce projet a été réalisé en solo en combinant deux phases distinctes : une campagne marketing complète générée avec des outils IA (Projet 1), puis une webapp interactive construite par vibe coding (Projet 2).
+Ce projet a été réalisé en équipe en combinant deux phases distinctes : une campagne marketing complète générée avec des outils IA (Projet 1), puis une webapp interactive construite par vibe coding (Projet 2).
 
 **Workflow Projet 1 - Campagne marketing (2h)**
 
