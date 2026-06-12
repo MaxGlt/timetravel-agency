@@ -6,12 +6,12 @@ Webapp pour une agence de voyage temporel fictive de luxe, développée dans le 
 
 ---
 
-##  Auteur
+##  Auteurs
 
 | Nom | Prénom |
 |-----|--------|
 | G | Max |
-| WN | Bertho |
+| WN | Berthovin |
 | BJ | Ivan |
 ---
 
