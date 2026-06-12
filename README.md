@@ -1,6 +1,6 @@
-#  TimeTravel Agency — Webapp Interactive
+#  TimeTravel Agency - Webapp Interactive
 
-Webapp pour une agence de voyage temporel fictive de luxe, développée dans le cadre du Projet Supervisé IA M1/M2 — Ynov Campus Paris 2025/2026.
+Webapp pour une agence de voyage temporel fictive de luxe, développée dans le cadre du Projet Supervisé IA M1/M2 - Ynov Campus Paris 2025/2026.
 
 > *Explorez l'histoire, réinventée.*
 
@@ -19,15 +19,15 @@ Webapp pour une agence de voyage temporel fictive de luxe, développée dans le 
 
 Développer une webapp moderne et interactive mettant en scène l'agence et ses 3 destinations temporelles avec des fonctionnalités alimentées par l'IA :
 
-- **Paris 1889** — Belle Époque, Tour Eiffel, Exposition Universelle
-- **Crétacé –65M** — Dinosaures, nature préhistorique
-- **Florence 1504** — Renaissance, art, Michel-Ange
+- **Paris 1889** - Belle Époque, Tour Eiffel, Exposition Universelle
+- **Crétacé –65M** - Dinosaures, nature préhistorique
+- **Florence 1504** - Renaissance, art, Michel-Ange
 
 ---
 
 ##  Features implémentées
 
-### Page 1 — Accueil `[essentiel]`
+### Page 1 - Accueil `[essentiel]`
 
 **Hero section**
 - Animation ou vidéo de fond (boucle temporelle)
@@ -47,7 +47,7 @@ Développer une webapp moderne et interactive mettant en scène l'agence et ses 
 
 ---
 
-### Page 2 — Galerie des destinations `[essentiel]`
+### Page 2 - Galerie des destinations `[essentiel]`
 
 **Paris 1889**
 - Image hero générée lors du Projet 1
@@ -69,7 +69,7 @@ Développer une webapp moderne et interactive mettant en scène l'agence et ses 
 
 ---
 
-### Feature IA — Agent conversationnel `[essentiel]`
+### Feature IA - Agent conversationnel `[essentiel]`
 
 **Widget chatbot**
 - Icône flottante en bas à droite de la page
@@ -91,7 +91,7 @@ Développer une webapp moderne et interactive mettant en scène l'agence et ses 
 
 ---
 
-### Feature IA — Quiz de recommandation `[optionnel — exercice 3.2]`
+### Feature IA - Quiz de recommandation `[optionnel - exercice 3.2]`
 
 **Quiz interactif (4 questions)**
 
@@ -121,7 +121,7 @@ Développer une webapp moderne et interactive mettant en scène l'agence et ses 
 
 ---
 
-### Feature — Formulaire de réservation `[optionnel — selon le temps]`
+### Feature - Formulaire de réservation `[optionnel - selon le temps]`
 
 - Sélection de la destination
 - Date de départ + durée du séjour
@@ -130,7 +130,7 @@ Développer une webapp moderne et interactive mettant en scène l'agence et ses 
 
 ---
 
-### Animations & micro-interactions `[optionnel — exercice 2.3]`
+### Animations & micro-interactions `[optionnel - exercice 2.3]`
 
 - Fade-in progressif des sections au scroll (AOS ou Framer Motion)
 - Hover effects sur les cards destinations
@@ -218,15 +218,15 @@ timetravel-agency/
 
 ###  Détail des assets
 
-#### Images — générées avec Runway (Projet 1)
+#### Images - générées avec Runway (Projet 1)
 
 | Fichier | Description |
 |---------|-------------|
-| `paris-hero-1/2/3.jpg` | Paris 1889 — Tour Eiffel en construction, Belle Époque, lumière dorée |
-| `cretace-hero-1/2/3.jpg` | Crétacé –65M — T-Rex en silhouette dans la jungle primordiale brumeuse |
-| `florence-hero-1/2/3.jpg` | Florence 1504 — Panorama du Duomo au coucher du soleil, toits en terracotta |
+| `paris-hero-1/2/3.jpg` | Paris 1889 - Tour Eiffel en construction, Belle Époque, lumière dorée |
+| `cretace-hero-1/2/3.jpg` | Crétacé –65M - T-Rex en silhouette dans la jungle primordiale brumeuse |
+| `florence-hero-1/2/3.jpg` | Florence 1504 - Panorama du Duomo au coucher du soleil, toits en terracotta |
 
-#### Vidéos — générées avec Runway (Projet 1)
+#### Vidéos - générées avec Runway (Projet 1)
 
 | Fichier | Description | Usage |
 |---------|-------------|-------|
@@ -236,11 +236,11 @@ timetravel-agency/
 | `florence-bg.mp4` | Slow panoramique sur les toits florentins, Duomo révélé progressivement | Background card Florence |
 | `timetravel-reel.mp4` | Vidéo de rendu final compilant les 3 destinations | Section présentation agence |
 
-#### Audio — générés avec Runway et Suno (Projet 1)
+#### Audio - générés avec Runway et Suno (Projet 1)
 
 | Fichier | Description | Usage |
 |---------|-------------|-------|
-| `maya-voiceover.mp3` | Narration voix over (Maya) — *« Le temps n'est plus une limite... »* | Intro ou onboarding audio |
+| `maya-voiceover.mp3` | Narration voix over (Maya) - *« Le temps n'est plus une limite... »* | Intro ou onboarding audio |
 | `skyline-runway.mp3` | Bande-son de fond, ambiance temporelle | Musique de fond de la webapp (avec bouton mute) |
 
 ---
@@ -265,7 +265,7 @@ npm run dev
 npm run build
 ```
 
->  Le fichier `.env.local` ne doit jamais être commité. Vérifie qu'il est bien dans ton `.gitignore`.
+>  Le fichier `.env.local` ne doit jamais être commité. Vérifier qu'il est bien dans ton `.gitignore`.
 
 ---
 
@@ -273,7 +273,7 @@ npm run build
 
 URL publique : **https://[ton-username].github.io/timetravel-agency/**
 
-Plateforme : GitHub Pages — déployé automatiquement via GitHub Actions à chaque push sur `main`.
+Plateforme : GitHub Pages - déployé automatiquement via GitHub Actions à chaque push sur `main`.
 
 > Testé sur mobile et desktop 
 
@@ -402,11 +402,11 @@ Chaque fichier doit être livré intégralement, sans placeholder ni TODO.
 
 Ce projet a été réalisé en solo en combinant deux phases distinctes : une campagne marketing complète générée avec des outils IA (Projet 1), puis une webapp interactive construite par vibe coding (Projet 2).
 
-**Workflow Projet 1 — Campagne marketing (2h)**
+**Workflow Projet 1 - Campagne marketing (2h)**
 
 Chaque phase a utilisé un outil spécialisé : Runway pour les images et les vidéos, Suno pour la musique, CapCut pour l'assemblage. Cette combinaison a permis de produire en 2 heures un niveau de rendu qui aurait nécessité plusieurs jours avec des outils traditionnels.
 
-**Workflow Projet 2 — Webapp (vibe coding)**
+**Workflow Projet 2 - Webapp (vibe coding)**
 
 Génération rapide d'une base fonctionnelle via prompt, puis itérations successives pour affiner le design et intégrer les assets du Projet 1. L'IA a été utilisée à toutes les étapes : génération de code, intégration du chatbot, quiz de recommandation.
 
@@ -422,14 +422,14 @@ Génération rapide d'une base fonctionnelle via prompt, puis itérations succes
 
 ##  Crédits & licences
 
-- Images des destinations : générées avec **Runway** — template prompt cinématique (Projet 1)
-- Vidéos de fond : générées avec **Runway** — image-to-video, mouvements de caméra cinématiques (Projet 1)
-- Voix over : générée avec **Runway** — voix française Maya, ton chaud et posé (Projet 1)
-- Musique de fond : générée avec **Suno** — style orchestral cinématique, Hans Zimmer style (Projet 1)
+- Images des destinations : générées avec **Runway** - template prompt cinématique (Projet 1)
+- Vidéos de fond : générées avec **Runway** - image-to-video, mouvements de caméra cinématiques (Projet 1)
+- Voix over : générée avec **Runway** - voix française Maya, ton chaud et posé (Projet 1)
+- Musique de fond : générée avec **Suno** - style orchestral cinématique, Hans Zimmer style (Projet 1)
 - Montage & assemblage : réalisé avec **CapCut** (Projet 1)
 - Code : généré avec **Claude Code** (extension VS Code)
 - Agent conversationnel : **Anthropic API** (`claude-sonnet-4-6`)
 - Animations : Framer Motion (MIT) / AOS (MIT)
 - Design inspiré de : Awwwards, Dribbble
 
-> Projet pédagogique — M1/M2 Digital & IA — Ynov Campus Paris 2025/2026
+> Projet pédagogique - M1/M2 Digital & IA - Ynov Campus Paris 2025/2026
